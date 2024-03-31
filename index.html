@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmoteCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/bcf4282864.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/eclogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header"><b>Home</b></a></li>
+                    <li><a href="#about"><b>About</b></a></li>
+                    <li><a href="therapy.html"><b>Therapy</b></a></li>
+                    <li><a href="selfreflect.html"><b>Self-Reflect</b></a></li>
+                    <li><a href="resources.html"><b>Resources</b></a></li>
+                    <li><a href="#contact"><b>Contact</b></a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h1>Breaking Barriers in <br><span>Mental Health</span><br> with Online Therapy and <br> Emotion Detection</h1>
+            </div>
+        </div>
+        <script>
+        window.embeddedChatbotConfig = {
+        chatbotId: "0e4PjKSCRKQoc48bE006C",
+        domain: "www.chatbase.co"
+        }
+        </script>
+        <script
+        src="https://www.chatbase.co/embed.min.js"
+        chatbotId="0e4PjKSCRKQoc48bE006C"
+        domain="www.chatbase.co"
+        defer>
+        </script>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <br><br><br><br><br><br><br>
+                    <h1 class="sub-title">About Us</h1>
+                    <br>
+                    <p>
+                        
+                        At EmoteCare, we're using AI to reshape mental health support. Our platform breaks down barriers to therapy by providing confidential online sessions, real-time emotional insights, personalized care plus extended helpful features. Join us in destigmatizing therapy and fostering well-being for all.</p>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+
+      <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="cont-list">
+                
+                <div>
+                    
+                    <h2>Therapy</h2>
+                    <p>Connect with our experienced therapists.</p><br>
+                    <a href="therapy.html">Learn More</a>
+                </div>
+                <div>
+                    
+                    <h2>Self-Reflect</h2>
+                    <p>Let out those supressed thoughts and feel relaxed.</p><br>
+                    <a href="selfreflect.html">Learn More</a>
+                </div>
+                <div>
+                    
+                    <h2>Resources</h2>
+                    <p>Get your hands on the resources which can help you with your mental peace journey.</p><br>
+                    <a href="Resources.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact</h1>
+                    <p><i class="fa-solid fa-envelope"></i> abc@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91 XXXXXXXXXX</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <!-- <a href="PWimages/MyCV.pdf" download class="btn btn2">Download CV</a> -->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © EmoteCare</p>
+        </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxOfaxIfn6h-dUYdjYQTGNuWFGXxMDxdjcEmKg7DKM0MaAuU5H0Pnkn2cO2owCiBPoo/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+    
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
