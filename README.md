@@ -3,6 +3,10 @@
 Website: https://vanivaranya.github.io/EmoteCare/
 <br>
 PPT Canva link: https://www.canva.com/design/DAF8ToHueOw/ipq2jKKHJupJdcCbh_OoyQ/edit?utm_content=DAF8ToHueOw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+<br>
+Demo video link: https://www.loom.com/share/05122083c77544e5b034ffb976e72d43?sid=c1c569c0-d169-4164-aa97-7c8f0f72335e
+<br>
+Photo drive link: https://github.com/vanivaranya/EmoteCare/tree/main/demo%20photos
 
 ## Problem Statement
 
@@ -20,19 +24,6 @@ Our problem comes under SDG Goal 3: Good Health and Well-being.
 - *Personalized Care:* Ability to track emotional trends over time, allowing therapists to tailor treatment plans and interventions.
 
 - *Extended Website Features:* Access to a chatbot, self reflect sessions, weekly report, therapist allocation, session scheduling, and mental health resources, for overall well being.
-
-Demo video link: https://www.loom.com/share/f6668ff386894aa88f38b48e2f01922a?sid=f1d62f10-7db7-43a7-a56c-e8f0a2d9c4f8
-
-## Improvements
-
-- *Added a chatbot:* Used openai api chatbase.co for integrating a chatbot that is empathetic and friendly.
-
-
-![EmoteCare Screenshot](https://github.com/vanivaranya/EmoteCare/assets/122560072/49b0cdd2-f8b3-474f-bba7-a119165c7d96)
-
-
-- *Improved Accuracy:* Combined another dataset with the previous one which improved accuracy from 63% to 67%.
-
 
 ### Dataset Information
 - https://www.kaggle.com/datasets/msambare/fer2013
