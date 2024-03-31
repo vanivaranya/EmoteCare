@@ -1,0 +1,74 @@
+.book-session {
+  background-color: #86A7FC; /* Blue background */
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; /* Add space between sections */
+}
+
+.book-session h3 {
+  color: #000; /* Black heading */
+}
+  
+  .therapy-options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .therapy-option {
+    background-color: #FFDD95; /* Little bit of orange */
+    width: calc(25% - 10px); /* Three options in one row with some spacing */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .therapy-option:hover {
+    transform: translateY(-5px);
+  }
+  
+  .therapy-option h4 {
+    margin-top: 0;
+  }
+  
+  .therapist-details {
+    margin-top: 10px;
+  }
+  
+.therapy-option button {
+  background-color: #FF9843;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.therapy-option button:hover {
+  background-color: #FFA76D;
+}
+
+  .schedule-meeting {
+    margin-top: 10px;
+  }
+  
+  .schedule-meeting textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .schedule-meeting button {
+    background-color: #FF9843;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .schedule-meeting button:hover {
+    background-color: #FFA76D;
+  }

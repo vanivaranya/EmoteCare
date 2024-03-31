@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Therapy</title>
+  <link rel="stylesheet" href="upcomingTherapy.css">
+  <link rel="stylesheet" href="bookTherapy.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Therapy</h1>
+    <p><i>
+      "Healing takes time and courage."
+    </i></p>
+  </header>
+
+  <main>
+    <section id="therapy" class="therapy-section">
+      <div class="container">
+        
+        <div class="session-list">
+          <h3>Upcoming Therapy Sessions</h3>
+
+          <div class="sessions-container">
+
+            <div class="session">
+              <p>Type: Individual</p>
+              <p>Therapist: Dr. Mehta</p>
+              <p>Agenda: Stress management</p>
+              <p>Time Remaining: 10 minutes</p>
+              <div class="session-details">
+                <button class="start-button" onclick="startMeeting('https://meet.google.com/bik-jpyu-aqf?authuser=0')">Start</button>
+              </div>
+            </div>
+
+            <div class="session">
+              <p>Type: Individual</p>
+              <p>Therapist: Dr. Verma</p>
+              <p>Agenda: Stress management</p>
+              <p>Time Remaining: 1 day 50 minutes</p>
+              <div class="session-details">
+                <button class="start-button" onclick="startMeeting('https://meet.google.com/bik-jpyu-aqf?authuser=0')">Start</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="book-session">
+          <h3>Book Therapy Session</h3>
+          <div class="therapy-options">
+            <div class="therapy-option">
+              <h4>Individual Therapy</h4>
+              <button onclick="bookTherapySession('individual')">Book</button>
+              <div class="therapist-details">
+                <p>Name: Dr. Mehta</p>
+                <p>Age: 40</p>
+                <p>Experience: 15 years</p>
+                <p>Availability: Monday, Wednesday, Friday</p>
+              </div>
+              <div class="schedule-meeting">
+                <textarea placeholder="Write a message to the therapist..."></textarea>
+                <button onclick="scheduleMeeting()">Schedule Meeting</button>
+              </div>
+            </div>
+
+            <div class="therapy-option">
+              <h4>Couple Therapy</h4>
+              <button onclick="bookTherapySession('couple')">Book</button>
+              <!-- Add therapist details and schedule meeting section here -->
+            </div>
+
+            <div class="therapy-option">
+              <h4>Family Therapy</h4>
+              <button onclick="bookTherapySession('family')">Book</button>
+              <!-- Add therapist details and schedule meeting section here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 EmoteCare. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function startMeeting(googleMeetLink) {
+      window.open(googleMeetLink, '_blank');
+    }
+
+    function bookTherapySession(type) {
+      // Simulate fetching therapist details from backend
+      const therapistData = {
+        name: "Dr. Smith",
+        age: 40,
+        experience: 15,
+        availability: "Monday, Wednesday, Friday",
+      };
+      alert(`Therapist booked: ${therapistData.name}`);
+    }
+
+    function scheduleMeeting() {
+      // Code to schedule meeting (e.g., open calendar, confirm booking, notify therapist)
+      alert("Meeting scheduled successfully!");
+    }
+  </script>
+</body>
+
+</html>

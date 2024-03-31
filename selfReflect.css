@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header { 
+  background-color: #3468C0;
+  color: #fff;
+  padding: 1px;
+  text-align: center;
+  margin-bottom: 50px; /* Add space after header */
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.self-reflect-section, .options {
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #86A7FC; /* Blue background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.option-button {
+  margin: 10px;
+  padding: 15px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-video, .view-report, .resources-page, .therapy-page {
+  background-color: #FF9843; /* Orange */
+}
+
+.start-video:hover, .view-report:hover, .resources-page:hover, .therapy-page:hover {
+  background-color: #FFB66B; /* Lighter shade of orange */
+}
+
+.footer {
+  background-color: #333; /* Black background */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.self-reflect-section {
+  /* max-width: 1000px;
+  background-color: #86A7FC; 
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px; */
+
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #86A7FC; /* Blue background */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.instructions-content {  
+  max-width: 1000px;
+  background-color: #FFDD95; /* Orange background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.instructions-content p,
+.instructions-content ul {
+  color: #000; /* Black font */
+}
+
+.instructions-content ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.instructions-content li {
+  margin-bottom: 10px;
+}
+
+.cyo-content {  
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #FFDD95; /* Orange background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
