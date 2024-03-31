@@ -1,6 +1,7 @@
 # EmoteCare
 
 Website: https://vanivaranya.github.io/EmoteCare/
+PPT Canva link: https://www.canva.com/design/DAF8ToHueOw/ipq2jKKHJupJdcCbh_OoyQ/edit?utm_content=DAF8ToHueOw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Problem Statement
 
@@ -19,7 +20,7 @@ Our problem comes under SDG Goal 3: Good Health and Well-being.
 
 - *Extended Website Features:* Access to a chatbot, self reflect sessions, weekly report, therapist allocation, session scheduling, and mental health resources, for overall well being.
 
-## Improvments after Mentorship
+## Improvments
 
 - *Added a chatbot* used openai api chatbase.co for integrating a chatbot that is empathetic and friendly.
 
