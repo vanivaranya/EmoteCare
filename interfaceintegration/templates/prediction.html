@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detection</title>
+</head>
+<body>
+    <h1>Emotion Detection</h1>
+    
+    {% if predicted_emotion %}
+    <div>
+        <h2>Predicted Emotion:</h2>
+        <p>{{ predicted_emotion }}</p>
+    </div>
+    {% endif %}
+</body>
+</html>
