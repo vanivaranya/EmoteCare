@@ -1,6 +1,6 @@
 # EmoteCare
 
-Website: 
+Website: https://vanivaranya.github.io/EmoteCare/
 
 ## Problem Statement
 
@@ -23,7 +23,9 @@ Our problem comes under SDG Goal 3: Good Health and Well-being.
 
 - *Added a chatbot* used openai api chatbase.co for integrating a chatbot that is empathetic and friendly.
 
-![alt text](https://github.com/s-sweta/Emote-Care/blob/2311364a9a40a5df9f111dab785789aea06ed317/images/website_with_chatbot.png)
+
+![alt text](<img width="778" alt="image" src="https://github.com/vanivaranya/EmoteCare/assets/122560072/49b0cdd2-f8b3-474f-bba7-a119165c7d96">
+)
 
 - *Improved Accuracy* Combined another dataset with the previous one which improved accuracy from 63% to 67%.
 
@@ -33,17 +35,16 @@ Our problem comes under SDG Goal 3: Good Health and Well-being.
 - https://www.kaggle.com/datasets/ananthu017/emotion-detection-fer
 
 ## Tech Stack
+
 ### AI/ML
-
 *Framework:* TensorFlow; *Model:* CNN 
-
 Worked on CNN and VGG16 models. Combined two datasets. While the CNN model offers much better accuracy, VGG16 gives a simpler architecture with fewer trainable parameters. But we proceeded with CNN as we focus more on the accuracy.
 
-*Model Interface:* JavaScript Webcam Capture
-
-Website Interface
-
+### Frontend 
 HTML, CSS, Javascript 
+
+### Backend
+Flask, SQLite, OpenCV
 
 ## Future Scope
 
