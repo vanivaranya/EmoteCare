@@ -21,15 +21,27 @@ Our problem comes under SDG Goal 3: Good Health and Well-being.
 
 - *Extended Website Features:* Access to a chatbot, self reflect sessions, weekly report, therapist allocation, session scheduling, and mental health resources, for overall well being.
 
-## Improvments
+Demo video link: https://www.loom.com/share/f6668ff386894aa88f38b48e2f01922a?sid=f1d62f10-7db7-43a7-a56c-e8f0a2d9c4f8
+<br>
+<br>
 
-- *Added a chatbot* used openai api chatbase.co for integrating a chatbot that is empathetic and friendly.
+Photos:
+![Photo 1](https://github.com/vanivaranya/EmoteCare/assets/122560072/6c20c524-51c4-436d-91bf-9fc2be85493a)
+![Photo 2](https://github.com/vanivaranya/EmoteCare/assets/122560072/413ccbff-ad6d-4907-b3ea-0d38dbb9ae50)
+![Photo 3](https://github.com/vanivaranya/EmoteCare/assets/122560072/9be1c828-abcc-444b-9dca-a7c27dec5984)
+![Photo 4](https://github.com/vanivaranya/EmoteCare/assets/122560072/66a446e8-7e7c-4161-b519-27ddef3cca9a)
+![Photo 5](https://github.com/vanivaranya/EmoteCare/assets/122560072/f7a43dae-49f6-4f9d-824f-5ad23d206fc6)
+![Photo 6](https://github.com/vanivaranya/EmoteCare/assets/122560072/200e6ded-c414-45e8-8451-8ac81e148cb1)
+
+## Improvements
+
+- *Added a chatbot:* Used openai api chatbase.co for integrating a chatbot that is empathetic and friendly.
 
 
 ![EmoteCare Screenshot](https://github.com/vanivaranya/EmoteCare/assets/122560072/49b0cdd2-f8b3-474f-bba7-a119165c7d96)
 
 
-- *Improved Accuracy* Combined another dataset with the previous one which improved accuracy from 63% to 67%.
+- *Improved Accuracy:* Combined another dataset with the previous one which improved accuracy from 63% to 67%.
 
 
 ### Dataset Information
