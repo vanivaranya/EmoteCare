@@ -1,13 +1,3 @@
-# EmoteCare
-
-Website: https://vanivaranya.github.io/EmoteCare/
-<br>
-PPT Canva link: https://www.canva.com/design/DAF8ToHueOw/ipq2jKKHJupJdcCbh_OoyQ/edit?utm_content=DAF8ToHueOw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-<br>
-Demo video link: https://www.loom.com/share/05122083c77544e5b034ffb976e72d43?sid=c1c569c0-d169-4164-aa97-7c8f0f72335e
-<br>
-Photo drive link: https://github.com/vanivaranya/EmoteCare/tree/main/demo%20photos
-
 ## Problem Statement
 
 Many individuals hesitate to seek therapy due to societal taboos and fear of judgment, while personalized one-on-one therapy sessions are often inaccessible and financially burdensome. This leads to prolonged suffering, a lower quality of life, with depression and suicide in extreme cases.
